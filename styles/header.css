@@ -1,0 +1,179 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1520px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 28px;
+}
+.search_form {
+  display: flex;
+  align-items: center;
+}
+
+.search_events {
+  padding: 13px 17px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  height: 42px;
+  border-radius: 8px 0px 0px 8px;
+  background-image: url(./../immages/header_img/search_grey.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 37px;
+}
+
+.search_ort {
+  font-size: 16px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  padding: 13px 17px;
+  height: 42px;
+}
+
+.search_events {
+  outline: none;
+}
+.search_event_div {
+  padding-left: 8px;
+  display: flex;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+}
+.img_serch {
+  display: flex;
+  align-items: center;
+}
+
+.btn_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #f65858;
+  width: 42px;
+  height: 42px;
+  border-radius: 0px 8px 8px 0px;
+}
+.btn_search:hover {
+  background-color: rgb(254, 147, 147);
+}
+
+.search_ort_input {
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-right: none;
+}
+
+/* _____________________ */
+.user_actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.lanuage_a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.singup_btn {
+  border: none;
+  background-color: rgba(0, 121, 138, 1);
+  color: white;
+  border-radius: 8px;
+  width: 83px;
+  height: 36px;
+}
+.singup_btn:hover {
+  background-color: rgb(105, 203, 216);
+}
+
+@media (max-width: 1560px) {
+}
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 893px) {
+  header {
+    gap: 15px;
+  }
+  .search_form {
+    flex-wrap: wrap;
+    order: 2;
+    flex-grow: 1;
+  }
+  .search_events {
+    flex-grow: 1;
+  }
+  .search_ort {
+    flex-grow: 1;
+  }
+}
+@media (max-width: 880px) {
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 530px) {
+  .logo_meet {
+    width: 94px;
+    height: 34px;
+  }
+  .logo_img {
+    padding-right: 2px;
+  }
+  .search_ort {
+    display: none;
+  }
+  .user_actions {
+    font-size: 12px;
+  }
+  .singup_btn {
+    width: 71px;
+    height: 31px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+}
+
+@media (max-width: 393px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 360px) {
+  .logo_meet {
+    width: 80px;
+    height: 30px;
+  }
+
+  .search_events {
+    height: 36px;
+    font-size: 10px;
+  }
+  .btn_search {
+    height: 36px;
+  }
+  .user_actions {
+    font-size: 10px;
+    gap: 15px;
+  }
+}

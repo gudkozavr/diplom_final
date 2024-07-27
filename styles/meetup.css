@@ -1,0 +1,241 @@
+.join_meetup_section {
+  min-width: 100%;
+}
+
+.meetup_container {
+  display: grid;
+  background-color: rgba(151, 202, 209, 0.08);
+  width: 100%;
+  padding: 15px 56px;
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    max-height: 55px;
+  }
+  p {
+    font-size: 16px;
+    max-width: 665px;
+    line-height: 24px;
+  }
+  button {
+    border: none;
+    background-color: rgba(227, 35, 89, 1);
+    color: white;
+    border-radius: 8px;
+    width: 192px;
+    height: 40px;
+    font-weight: 500;
+  }
+  button:hover {
+    background-color: rgb(225, 118, 148);
+  }
+}
+
+.meetup_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.p_meetup {
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 100%;
+}
+.categories_icons {
+  display: flex;
+  gap: 8px;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icons_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  /* justify-content: center; */
+  width: 135px;
+  height: 112px;
+  background-color: rgba(151, 202, 209, 0.08);
+  padding: 22px 18px;
+  border-radius: 8px;
+  transition: background 0.8s ease;
+
+  p {
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+  }
+}
+
+.icons_div:hover {
+  background-color: rgba(151, 202, 209, 0.703);
+  border: 2px solid rgba(39, 122, 133, 0.703);
+}
+
+/* ______________________________________________________start city style__________ */
+.city_text {
+  margin-top: 64px;
+  margin-bottom: 28px;
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(112, 112, 112, 1);
+  }
+}
+
+.city_div {
+  display: flex;
+  gap: 42px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs_city {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+  p {
+    font-size: 20;
+    font-weight: 700;
+  }
+}
+
+/* ______________________________________________start how work meetuo________ */
+
+.info_work_div {
+  display: flex;
+  gap: 32px;
+  min-width: 580px;
+}
+.info_work_content {
+  display: flex;
+  gap: 24px;
+  background-color: rgba(151, 202, 209, 0.08);
+  border-radius: 8px;
+  padding: 24px;
+
+  h3 {
+    font-size: 24px;
+    text-align: justify;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  a {
+    color: rgba(0, 121, 138, 1);
+    font-weight: 500;
+  }
+  a:hover {
+    background-color: rgba(0, 122, 138, 0.068);
+
+    color: rgb(27, 8, 45);
+  }
+}
+.info_work_img {
+  padding-top: 12px;
+}
+.dinfo_work_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* _________________________________________________________start friendships_____ */
+
+.friendships_on_meetup_container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 64px;
+  a {
+    font-weight: 500;
+    color: rgba(0, 121, 138, 1);
+  }
+}
+
+.friendships_info_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.text_friendships {
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    max-width: 853px;
+    line-height: 24px;
+  }
+}
+.div_friendships_info {
+  display: flex;
+  flex-direction: column;
+  max-width: 376px;
+  gap: 12px;
+
+  h3 {
+    max-width: 320px;
+    line-height: 28px;
+  }
+  p {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1440px) {
+  .meetup_container {
+    /* flex-direction: column; */
+    width: 100%;
+  }
+
+  .img_hello {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .meetup_container {
+    flex-direction: column;
+    /* margin: 0 25px; */
+    margin-right: 30px;
+  }
+  .meetup_content {
+    p {
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+
+@media (max-width: 393px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}

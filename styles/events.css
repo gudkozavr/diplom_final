@@ -1,0 +1,205 @@
+.events_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+  margin-bottom: 28px;
+  margin-top: 97px;
+}
+.events_near {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 28px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(151, 202, 209, 0.12);
+    padding: 0 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgba(0, 121, 138, 1);
+    font-weight: 500;
+  }
+}
+.search_ort {
+  padding-left: 17px;
+}
+.link_all_events {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 121, 138, 1);
+}
+/* ______________________________________________________events div ___________ */
+.events {
+  display: flex;
+  margin: 0 auto;
+}
+
+.events_container {
+  display: flex;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 36px;
+  justify-content: baseline;
+}
+
+.event_div {
+  min-height: 399px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.event_div:hover {
+  /* border: 0.1px blue solid; */
+  background-color: rgb(216, 210, 221);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.name_event {
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 256px;
+}
+
+.category_event {
+  font-size: 14px;
+  color: rgba(112, 112, 112, 1);
+}
+.date_event {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+}
+
+.info_ticket {
+  font-size: 16px;
+  display: flex;
+  gap: 15px;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+.online_events_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+  padding: 0 46px;
+  padding-bottom: 30px;
+}
+.events_online {
+  font-size: 28px;
+}
+
+@media (max-width: 1445px) {
+  .events_menu {
+    min-width: none;
+    max-width: 100%;
+    margin-bottom: 2px;
+  }
+  .events_near > h3 {
+    font-style: 18px;
+  }
+}
+@media (max-width: 1230px) {
+  .events {
+    max-width: 900px;
+  }
+  .events_container {
+    justify-content: baseline;
+    max-width: 900px;
+  }
+  .events_menu {
+    margin-bottom: 20px;
+    max-width: 900px;
+  }
+  .events_near {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 650px) {
+  .event_div {
+    padding-top: 16px;
+    flex-direction: row;
+    min-height: auto;
+    border-top: 1px solid rgba(217, 217, 217, 1);
+  }
+  .events_container {
+    justify-content: left;
+    gap: 15px;
+  }
+  .name_event {
+    max-width: 100%;
+  }
+  .event_div > img {
+    width: 159px;
+    height: 90px;
+  }
+  .div_event_text {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    max-width: 100%;
+  }
+  .name_event {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .date_event {
+    font-size: 12px;
+  }
+  .info_ticket {
+    font-size: 12px;
+  }
+  .link_all_events {
+    display: none;
+  }
+  .events_near > h3 {
+    font-size: 20px;
+  }
+  .online_events_menu {
+    padding-left: 0;
+    padding-bottom: 15px;
+  }
+  .events_online > h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 425px) {
+}
+
+@media (max-width: 393px) {
+}
+
+@media (max-width: 376px) {
+  .event_div > img {
+    width: 278px;
+    height: 153px;
+  }
+  .event_div {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .div_event_text {
+    max-width: 278px;
+  }
+}
+
+@media (max-width: 320px) {
+}
