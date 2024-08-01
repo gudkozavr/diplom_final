@@ -20,6 +20,7 @@
 }
 .map_img_div {
   position: relative;
+  cursor: pointer;
 }
 .btn_map {
   position: absolute;
@@ -56,6 +57,11 @@
     margin-right: 17px;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(231, 236, 240);
+    }
   }
   padding-bottom: 55px;
 }
