@@ -1,0 +1,171 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1512px;
+  margin: 0 auto;
+  margin-top: 77px;
+  padding: 0 150px;
+}
+
+.event_container {
+  display: flex;
+  border-top: 1px solid rgba(217, 217, 217, 1);
+  height: 159px;
+  max-width: 604px;
+}
+
+.events_container_new {
+  margin-top: 40px;
+}
+.event_filter {
+  h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  a {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgba(0, 121, 138, 1);
+    border-bottom: 3px solid rgba(0, 121, 138, 1);
+
+    &:hover {
+      border-bottom: 5px solid rgb(154, 110, 49);
+    }
+  }
+
+  select {
+    border: none;
+    border-radius: 40px;
+    height: 46px;
+    background-color: rgba(246, 247, 248, 1);
+    margin-right: 17px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  padding-bottom: 55px;
+}
+.img_event {
+  min-width: 159px;
+  height: 89px;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.div_event_element {
+  display: flex;
+  flex-direction: column;
+}
+.date_event {
+  font-size: 14px;
+  color: rgba(124, 111, 80, 1);
+  line-height: 20px;
+}
+.name_event {
+  font-size: 16px;
+  line-height: 24px;
+}
+.category_event {
+  font-size: 14px;
+  color: rgba(112, 112, 112, 1);
+  line-height: 20px;
+  flex-grow: 2;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.attendees {
+  font-size: 14px;
+  color: rgba(112, 112, 112, 1);
+}
+
+.map {
+  p {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .map {
+    display: none;
+  }
+}
+
+@media (max-width: 893px) {
+  .main {
+    padding-left: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 666px) {
+  .main {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .img_event {
+    min-width: 97px;
+    height: 55px;
+  }
+  .event_filter {
+    h1 {
+      font-size: 24px;
+    }
+    a {
+      font-size: 20px;
+    }
+  }
+  .event_container {
+    height: 110px;
+  }
+  .event_filter {
+    select {
+      margin-top: 10px;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+  }
+  .date_event {
+    font-size: 9px;
+  }
+  .name_event {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .category_event {
+    font-size: 10px;
+  }
+  .attendees {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .main {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 376px) {
+  .main {
+    padding-right: 0px;
+  }
+  .event_filter {
+    h1 {
+      font-size: 16px;
+      line-height: 25px;
+    }
+    & select {
+      font-size: 10px;
+      margin-right: 2px;
+    }
+  }
+}

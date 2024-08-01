@@ -1,0 +1,53 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("import_two.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgba(33, 33, 33, 1);
+  font-size: 16px;
+  line-height: 2.4;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: brown;
+  text-decoration: solid;
+  font-weight: 500;
+  background-color: antiquewhite;
+  padding: 2px;
+}
+ul {
+  list-style: none;
+}
+
+.main_container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1230px) {
+  h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
