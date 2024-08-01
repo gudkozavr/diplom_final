@@ -5,7 +5,7 @@
   max-width: 1512px;
   margin: 0 auto;
   margin-top: 77px;
-  padding: 0 150px;
+  padding: 0 100px 0 150px;
 }
 
 .event_container {
@@ -17,6 +17,19 @@
 
 .events_container_new {
   margin-top: 40px;
+}
+.map_img_div {
+  position: relative;
+}
+.btn_map {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.img_map {
+  width: 350px;
+  height: 285px;
 }
 .event_filter {
   h1 {

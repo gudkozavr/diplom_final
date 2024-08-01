@@ -70,8 +70,6 @@ const selects = document.querySelectorAll("select");
 
 selects.forEach((e) => {
   e.addEventListener("change", () => {
-    console.log(getOptions());
-    console.log(filterEvents(getOptions(), eventsStore));
     renderEvents(filterEvents(getOptions(), eventsStore));
   });
 });
